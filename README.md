@@ -1,6 +1,6 @@
 # Img2Pdf
--. 사진들을 모아서 pdf로 변환
--. pdf 파일 합치기
+- 사진들을 모아서 pdf로 변환 (makePdf)
+- pdf 파일 합치기 (pdfMerge)
 
 ## 사전설정
 1. requirements.txt 를 사용하여 pip 설치
