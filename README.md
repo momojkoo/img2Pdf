@@ -1,5 +1,6 @@
 # Img2Pdf
-사진들의 모음을 pdf로 변환함
+-. 사진들을 모아서 pdf로 변환
+-. pdf 파일 합치기
 
 ## 사전설정
 1. requirements.txt 를 사용하여 pip 설치
@@ -8,6 +9,11 @@
 
 ## 사용법
 ### makePdf
-	1. makePdf.bat 파일을 이미지가 있는 폴더로 복사한다
+	1. makePdf.bat 파일을 이미지가 있는 폴더로 복사한다.
 	2. makePdf.bat 파일을 실행한다.
-	3. 현재 폴더에 있는 이미지 파일(jpg, gif, png) 파일이 정렬되어 하나의 pdf(output.pdf)로 생성된다
+	3. 현재 폴더에 있는 이미지 파일(jpg, gif, png) 파일이 정렬되어 하나의 pdf(output.pdf)로 생성된다.
+
+### pdfMerge
+	1. makePdf.bat 파일을 pdf 파일들이 있는 폴더로 복사한다.
+	2. makePdf.bat 파일을 실행한다.
+	3. pdf 파일들이 하나로 합쳐져 하나의 pdf(merged.pdf)로 생성된다.
