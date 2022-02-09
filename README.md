@@ -7,7 +7,7 @@
 3. 각 batch 파일에서 PROGRAMPATH 경로 확인 및 수정
 
 ## 사용법
-###. makePdf
+### makePdf
 	1. makePdf.bat 파일을 이미지가 있는 폴더로 복사한다
 	2. makePdf.bat 파일을 실행한다.
 	3. 현재 폴더에 있는 이미지 파일(jpg, gif, png) 파일이 정렬되어 하나의 pdf(output.pdf)로 생성된다
