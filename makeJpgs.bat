@@ -17,7 +17,7 @@ if defined _OLD_CODEPAGE (
     set "_OLD_CODEPAGE="
 )
 
-SET pyProgram=%VIRTUAL_ENV%\makePdf.py
+SET pyProgram=%VIRTUAL_ENV%\myPdf2jpg.py
 python %pyProgram%
 
 rem pause
