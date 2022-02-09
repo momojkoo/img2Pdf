@@ -2,6 +2,7 @@
 - 사진들을 모아서 pdf로 변환 (makePdf)
 - pdf 파일 합치기 (pdfMerge)
 - pdf 각 페이지를 이미지로 저장하기 (myPdf2jpg)
+- jpg 를 가운데를 기준으로 둘로 나눔 (splitJpg)
 
 ## 사전설정
 1. requirements.txt 를 사용하여 pip 설치
@@ -23,3 +24,8 @@
 	1. makeJpgs.bat 파일을 pdf 파일이 있는 폴더로 복사한다.
 	2. makeJpgs.bat 파일을 실행한다.
 	3. pdf 파일과 같은 이름의 폴더에 jpg 파일들이 생성된다.
+
+### myPdf2jpg
+	1. splitJpg.bat 파일을 jpg 파일이 있는 폴더로 복사한다.
+	2. splitJpg.bat 파일을 실행한다.
+	3. 폴더에 있는 jpg, png 파일을 둘로 나눠서 output 폴더에 저장한다.

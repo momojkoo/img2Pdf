@@ -1,5 +1,7 @@
 img2pdf==0.4.3
 lxml==4.7.1
+numpy==1.19.3
+opencv-python==4.5.5.62
 packaging==21.3
 pdf2jpg==1.1
 pikepdf==4.4.1
