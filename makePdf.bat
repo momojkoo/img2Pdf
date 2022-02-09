@@ -1,5 +1,7 @@
 @echo off
 
+SET PROGRAMPATH="D:\work\img2pdf"
+
 rem This file is UTF-8 encoded, so we need to update the current code page while executing it
 for /f "tokens=2 delims=:" %%a in ('"%SystemRoot%\System32\chcp.com"') do (
     set "_OLD_CODEPAGE=%%a"
@@ -17,8 +19,7 @@ if defined _OLD_CODEPAGE (
     set "_OLD_CODEPAGE="
 )
 
-
-SET pyProgram=D:\py_test\img2pdf\makePdf.py
+SET pyProgram=%PROGRAMPATH%\makePdf.py
 python %pyProgram%
 
 rem pause
